@@ -3,7 +3,6 @@
 
 <p>Before starting this project you will need to run the following commands in the projects root folder, but make sure you have composer installed:</p>
 <div># composer install</div>
-<div># composer dumpautoload -o</div>
 <br />
 
 <p>Here a a few example test you can write to test your PHPUnit understanding:</p>
