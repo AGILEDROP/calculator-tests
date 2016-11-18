@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "AdTests\\": "app/AdTests",
+      "AdPHPUnit\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
