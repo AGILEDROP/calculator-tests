@@ -16,6 +16,8 @@ class Calculator {
    * @param $a
    * @param $b
    * @param $op
+   *
+   * This method is used to save input values into the object.
    */
   public function set($a, $b, $op) {
     $this->validateInput($a, $b);
@@ -27,6 +29,8 @@ class Calculator {
   /**
    * @param bool $advMath
    * @return float|int|number
+   *
+   * This methos does the actual calculation using the vales passed through ->set().
    */
   public function process($advMath = FALSE) {
     switch ($this->op) {
