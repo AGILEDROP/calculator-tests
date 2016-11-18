@@ -1,6 +1,8 @@
 <?php
+
 require_once 'app/boot.php';
 use AdTests\Calculator\Calculator;
+
 $val1 = (isset($_POST['val1'])) ? $_POST['val1'] : '';
 $val2 = (isset($_POST['val2'])) ? $_POST['val2'] : '';
 $plus = (isset($_POST['operator']) && $_POST['operator'] == 'plus') ? 'selected="selected"' : '';
@@ -9,6 +11,7 @@ $multi = (isset($_POST['operator']) && $_POST['operator'] == 'multi') ? 'selecte
 $div = (isset($_POST['operator']) && $_POST['operator'] == 'divide') ? 'selected="selected"' : '';
 $pow = (isset($_POST['operator']) && $_POST['operator'] == 'pow') ? 'selected="selected"' : '';
 ?>
+
 <html>
 <head><title>AD Calculator</title></head>
 <body>
