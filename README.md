@@ -2,11 +2,11 @@
 <p>This is a project that demonstrates tha basics of unit testing in PHP using the common PHPUnit library. Inside you can find a calculator class that handles basic operations bundled with a simple frontend for testing purposes.</p>
 
 <div>Before starting this project you will need to run the following commands in the projects root folder, but make sure you have composer installed:</div>
-<div># composer install</div>
+<div>$ composer install</div>
 <br />
 
 <div>You can run the included sample test by running the following command from the projects root folder:</div>
-<div># ./vendor/bin/phpunit tests/CalculatorTest.php</div>
+<div>$ ./vendor/bin/phpunit tests/CalculatorTest.php</div>
 <br />
 
 <p>Here a a few example test you can write to test your PHPUnit understanding:</p>
